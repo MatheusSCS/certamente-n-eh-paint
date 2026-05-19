@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Paint CG</title>
+</head>
+<body>
+    <div class="interface">
+
+        <div class="oculto">
+            <h3>Movements</h3>
+            <p>A D W S Q E- Translate</p>
+            <p> &#8592 &#8593 &#8594 &#8595 - Scalate</p>
+            <p> U O I K J L - Rotation</p>
+            <p> Only square figures have Texture!</p>
+        </div>
+
+        <div class="aside-esquerda">
+            <ul>
+                <li><button class="forma reta"></button></li>
+                <li><button class="forma triangulo"></button></li>
+                <li><button class="forma quadrado"></button></li>
+                <li><button class="forma trapezio"></button></li>
+                <li><button class="forma pentagono"></button></li>
+                <li><button class="forma circulo"></button></li>
+            </ul>
+        </div>
+
+        <div class="corpo">
+            <header id="cabecalho">
+                <h1>Paint CG</h1>
+            </header>
+            
+            <div class="painel">
+                <div class="rendererStyle" id="mainView" style="width: 100%; height: 500px;">
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="aside-direita">
+            <ul>
+                <li><button class="btn preto"></button></li>
+                <li><button class="btn cinza"></button></li>
+                <li><button class="btn branco"></button></li>
+                <li><button class="btn azul"></button></li>
+                <li><button class="btn amarelo"></button></li>
+                <li><button class="btn verde"></button></li>
+                <li><button class="btn rosa"></button></li>
+                <li><button class="btn ciano"></button></li>
+                <li><button class="btn vermelho"></button></li>
+            </ul>    
+        </div>
+    </div>
+    
+    <footer class="rodape">
+        <p>
+            Copyright &copy; 2018 - by João Villar & Lucas Stamford & Matheus Santa Cruz
+        </p>
+    </footer>
+
+    <script src="./libs/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
